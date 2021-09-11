@@ -1,0 +1,22 @@
+{
+  "name": "postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_pg.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erjigit17/Postgresql.git"
+  },
+  "author": "Erjigit Imamov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erjigit17/Postgresql/issues"
+  },
+  "homepage": "https://github.com/erjigit17/Postgresql#readme",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
