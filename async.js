@@ -17,3 +17,4 @@ const pool = new Pool({
   console.table(rows)
   pool.end()
 })()
+
