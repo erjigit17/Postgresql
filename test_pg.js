@@ -12,7 +12,7 @@ const pool = new Pool({
 
 const fields = ['schemaname', 'tablename', 'tableowner'].join(', ');
 const sql = `SELECT ${fields} FROM pg_tables WHERE tableowner = $1`;
-pool.query(sql, ['marcus'], (err, res) => {
+pool.query(sql, ['postgres'], (err, res) => {
   if (err) {
     throw err;
   }
