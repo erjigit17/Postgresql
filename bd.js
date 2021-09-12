@@ -9,3 +9,5 @@ const pool = new Pool({
   user: '',
   password: '',
 });
+
+module.exports = pool

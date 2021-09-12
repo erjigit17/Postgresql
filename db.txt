@@ -1,0 +1,21 @@
+--
+
+CREATE TABLE weather (
+    city            varchar(80),
+    temp_lo         int,           -- low temperature
+    temp_hi         int,           -- high temperature
+    prcp            real,          -- precipitation
+    date            date
+);
+
+CREATE TABLE cities (
+    name            varchar(80),
+    location        point
+);
+\d
+
+INSERT INTO weather VALUES ('Erjigit', 'Imamov', '1988-04-22');
+
+
+DROP TABLE weather;
+SELECT id, systemName, surname date FROM person

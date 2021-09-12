@@ -1,13 +1,13 @@
-create TABLE person (
+CREATE TABLE person (
   id SERIAL PRIMARY KEY,
-  systemName VARCHAR(255),
+  name VARCHAR(255),
   surname VARCHAR(255)
 );
 
-create TABLE post (
+CREATE TABLE post (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255),
   content VARCHAR(255),
   user_id INTEGER,
-  FOREING KEY (user_id) REFERENCES person (id)
+  FOREIGN KEY (user_id) REFERENCES person (id)
 );
